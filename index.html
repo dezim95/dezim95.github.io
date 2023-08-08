@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My landing page</title>
+  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+  <!-- We need this line below for responsiveness! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    /* Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+  /* Fontawesome */
+  @import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+  /* Utilities */
+  body {
+    margin: 0;
+    font-family: Open Sans;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: Poppins;
+  }
+
+  .banner {
+    background-image: url("https://assets.website-files.com/622733c59bf20d8a074764f6/627a7569f1389244d2938298_pokemon-banner.png"); /* Replace with your actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #b1b1b1;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+  }
+
+  a:hover {
+    background-color: #939393;
+  }
+
+  footer {
+    background-color: #b1b1b1;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .links {
+    display: flex;
+    gap: 20px;
+  }
+
+  .links a {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    color: #7a7a7a;
+  }
+
+  .links img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+  .cards .card img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15%;
+    margin-top: 15%;
+  }
+
+  p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  /* Custom design below! */
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1cfcf;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+</style>
+<body>
+  <div class="banner">
+    <div class="container">
+      <h1>Become a Pokémon master!</h1>
+      <p>Hone your skills to become the best trainer in the world.</p>
+      <a href="https://www.www.smogon.com/dex/sv/formats/ou/#!">Learn the OU template</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Where to begin</h2>
+    <div class="cards">
+      <div class="card">
+        <a href="https://www.smogon.com/forums/threads/sv-ou-bazaar.3710954/" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffiles.cults3d.com%2Fuploaders%2F12892269%2Fillustration-file%2Fb95c66d8-b4f9-4482-a58e-0cf7161da54e%2FPok%25C3%25A9ball%2520x6_large.PNG&f=1&nofb=1&ipt=897dd6fc7dc7e48d411c72f12ca720b28b66acd89139df8ab65acaab7a9144a2&ipo=images" alt=""> </a>
+        <h3>1.Choose your team</h3>
+        <p>A well balanced team is created as a whole. Choose Pokémon that cover each other's weaknesses.</p>
+      </div>
+      <div class="card">
+        <a href="https://www.smogon.com/ingame/guides/breeding_guide_part1" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.imgur.com%2F947dPQ8.png&f=1&nofb=1&ipt=6f3683d7321112730535dbfd1466ce51eb41c4e7a87ce066908f6b62c3e13262&ipo=images" alt=""> </a>
+        <h3>2.Create your team</h3>
+        <p>Your team should be realistic. Think about which Pokémon you already have or could feasibly obtain and breed them.</p>
+      </div>
+      <div class="card">
+
+        <a href="https://www.youtube.com/watch?v=UldeXA6T4_A" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.saymedia-content.com%2F.image%2Ft_share%2FMTc2NzU1ODkzNDMzMTQ4OTM2%2Fbest-pokemon-battles-from-anime-and-movies.png&f=1&nofb=1&ipt=929735ffcc90fe072fa844a9570d97312a18c45954d0124909adfbb0aa720afe&ipo=images" alt=""> </a>
+
+        <h3>3.Test your team</h3>
+        <p>Play with your team and fine tune it. After your team is complete, you should test it out and adapt movepools acording to your needs.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="links">
+        <a href="https://github.com/dezim95"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/dezimfisicaenem/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCDeG_726Bphb6tVrFeNFExA"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/andr%C3%A9-de-lacerda-santos-948537220"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <p>2023 by André Lúcio @LeWagon</p>
+    </div>
+  </footer>
+</body>
+</html>
